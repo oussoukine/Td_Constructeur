@@ -3,7 +3,7 @@ public class Segment {
 	private Point  B;
 
 	public Segment(Point d){
-		new Point();
+		A= new Point();
 		this.B=d;
 	}
 
@@ -19,8 +19,8 @@ public class Segment {
 	public double distance()
     {
         double d;
-        d = Math.sqrt((B.getAbscisse()-A.getAbscisse())*(B.getAbscisse()-A.getAbscisse()) +(B.getOrdonée()-A.getOrdonée())*(B.getOrdonée()-A.getOrdonée()));
-        return d;
+        d = Math.sqrt((B.getAbscisse()-A.getAbscisse())*(B.getAbscisse()-A.getAbscisse()) +(B.getOrdonÃ©e()-A.getOrdonÃ©e())*(B.getOrdonÃ©e()-A.getOrdonÃ©e()));
+        return d;//Math.pow(a,b)
     }
 
 	public String toString(){
