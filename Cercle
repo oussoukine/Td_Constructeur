@@ -4,7 +4,7 @@ public class Cercle {
 	Segment rayon;
 	
 	public Cercle(){
-		new Point();
+		new Point(); // rayon ??
 	}
 	public Cercle(Point o,Segment rayon){
 		this.o=o;
