@@ -8,13 +8,13 @@ public class Test {
 		Point C=new Point(3,8);
 
 
-System.out.println("le point A mes coordonées sont :"+A.toString());
-System.out.println("le point B mes coordonées sont :"+B.toString());
-System.out.println("le point c mes coordonées sont :"+C.toString());
+System.out.println("le point A mes coordonÃ©es sont :"+A);
+System.out.println("le point B mes coordonÃ©es sont :"+B);
+System.out.println("le point c mes coordonÃ©es sont :"+C);
 
-		System.out.println("l'image de A est : "+A.Symetrie());
-			System.out.println("l'image de B est : "+B.Symetrie());
-			System.out.println("l'image de c est : "+C.Symetrie());
+		System.out.println("l'image de A est : "+A);
+			System.out.println("l'image de B est : "+B);
+			System.out.println("l'image de c est : "+C);
 
 		Segment AB=new Segment(A,B);
 		Segment BC=new Segment(B,C);
